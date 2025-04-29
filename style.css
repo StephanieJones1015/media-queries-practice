@@ -57,37 +57,39 @@ footer{
     background-color: green;
     background-image: radial-gradient(whitesmoke, green);
 }
+  
+}
 nav{
   display: none;
  }
 
  /* || medium  */
-@media screen and (min-width: 768px) {
-  body {
-    background-color: gold;
-    background-image: radial-gradient(whitesmoke, gold);
+@media screen and (min-width: 768px) {body {
+  background-color: gold;
+  background-image: radial-gradient(whitesmoke, gold);}
+  
 }
 
 
 /* || large  */
-@media screen and (min-width: 992px) {
-  body {
-    background-color: firebrick;
-    background-image: radial-gradient(whitesmoke, firebrick);
+@media screen and (min-width: 992px) {body {
+  background-color: firebrick;
+  background-image: radial-gradient(whitesmoke, firebrick);}
+  
 }
 
 /* || extra large  */
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: rebeccapurple;
-    background-image: radial-gradient(whitesmoke, rebeccapurple);
+@media screen and (min-width: 1200px) {body {
+  background-color: rebeccapurple;
+  background-image: radial-gradient(whitesmoke, rebeccapurple);}
+  
 }
 
 /* || MOBILE DEVICE LANDSCAPE */
-@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
-  body {
-    background-color: dodgerblue;
-    background-image: radial-gradient(whitesmoke, dodgerblue);
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {body {
+  background-color: dodgerblue;
+  background-image: radial-gradient(whitesmoke, dodgerblue);}
+  
 }
 
 h1, h2 {
